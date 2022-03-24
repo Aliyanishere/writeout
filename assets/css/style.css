@@ -90,6 +90,50 @@ p {
   left: 0;
 }
 
+.mob_poly1 {
+  display: none;
+}
+
+.mob_poly2 {
+  display: none;
+}
+
+.mob_poly3 {
+  display: none;
+}
+
+.mob_poly4 {
+  display: none;
+}
+
+.outer_poly1 {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.outer_poly2 {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 60px;
+}
+
+.outer_poly3 {
+  z-index: -1;
+  position: absolute;
+  bottom: 130px;
+  right: 0;
+}
+
+.outer_poly4 {
+  z-index: -1;
+  position: absolute;
+  bottom: 60px;
+  left: 0;
+}
+
 .login {
   background-color: #06A361;
   color: white;
@@ -579,6 +623,11 @@ p {
   height: 49px;
 }
 
+.modal-footer button:hover {
+  background: #F05342;
+  backdrop-filter: blur(26.4827px);
+}
+
 .b-calendar .b-calendar-header {
   display: none;
 }
@@ -635,6 +684,7 @@ p {
 }
 
 .write_msg {
+  position: relative;
   background: rgba(255, 255, 255, 0.135);
   /* backdrop-filter: blur(26.4827px); */
   border-radius: 12px;
@@ -928,7 +978,8 @@ input:checked+.slider:before {
 }
 
 .fa-paper-plane {
-  transform: rotate(20deg);
+  z-index: 999;
+  transform: rotate(10deg);
 }
 
 .btn_active {
@@ -942,10 +993,166 @@ input:checked+.slider:before {
   backdrop-filter: blur(26.4827px);
   color: white !important;
 }
-#check{
+
+#check {
   visibility: hidden;
 }
 
+.home {
+  margin-top: 100px;
+}
+
+.block_btn {
+  position: absolute;
+  /* top: 0; */
+  right: 130px;
+  /* width: 100%; */
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.block_btn button {
+  border: 1px solid white;
+  color: white;
+  padding: 10px 20px;
+  background-color: transparent;
+  border-radius: 14px;
+}
+
+.block_btn button:hover {
+  transition: 0.7s;
+  border: 1px solid white;
+  color: black;
+  font-weight: bold;
+  padding: 10px 20px;
+  background-color: white;
+  border-radius: 14px;
+}
+
+.banuser_btn button {
+  border: 1px solid red;
+  color: red;
+  padding: 10px 20px;
+  background-color: transparent;
+  border-radius: 14px;
+}
+
+.banuser_btn button:hover {
+  transition: 0.7s;
+  border: 1px solid red;
+  color: white;
+  padding: 10px 20px;
+  background-color: red;
+  border-radius: 14px;
+}
+
+.grant_verify {
+  display: none !important;
+}
+
+.messaging {
+  cursor: pointer
+}
+
+.send_bg {
+  position: absolute;
+  right: 8px;
+  background-color: #f05342;
+  padding: 19px;
+  border-radius: 50px;
+}
+
+.rounded-circle {
+  color: white !important;
+}
+
+.rounded-circle:hover {
+  background-color: #F05342 !important;
+  color: white !important;
+}
+
+.rounded-circle:focus {
+  background-color: #F05342 !important;
+  color: white !important;
+}
+
+.rounded-circle.active {
+  background-color: #F05342 !important;
+  color: white !important;
+}
+
+.btn-light {
+  background-color: #F05342 !important;
+  color: white !important;
+}
+
+.modal-body div {
+  text-align: center !important;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.col-md-auto {
+  width: 100%;
+}
+
+.modal-body {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.b-calendar-grid-caption {
+  color: #F05342;
+  font-weight: bold;
+}
+
+.b-calendar-grid-weekdays {
+  border-bottom: 1px solid #F05342 !important;
+}
+
+.form-control-sm {
+  margin-top: 20px;
+  color: white;
+}
+
+.bi-chevron-up, .bi-circle-fill {
+  color: white;
+}
+
+.b-form-spinbutton {
+  color: white;
+  background-color: #4d2478 !important;
+}
+
+.flex-grow-1 {
+  color: white !important;
+}
+
+.bi-chevron-up:active {
+  color: black !important;
+}
+
+.mob_sidebar {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: 5px 0px 5px 0px;
+  padding: 5px;
+  background: rgba(255, 255, 255, 0.135);
+  backdrop-filter: blur(26.4827px);
+  border-radius: 10px;
+  width: 300px;
+  height: 70px;
+}
+
+.sidebar_nav {
+  margin-top: 40px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 @media(max-width: 990px) {
   #nav-collapse {
@@ -1134,6 +1341,21 @@ input:checked+.slider:before {
   .user_detail {
     margin-top: 0px !important;
   }
+
+  .home {
+    margin-top: 150px;
+  }
+
+  .block_btn button, .banuser_btn button {
+    display: none;
+  }
+
+  .grant_verify {
+    display: block !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center;
+  }
 }
 
 @media(max-width: 480px) {
@@ -1141,9 +1363,9 @@ input:checked+.slider:before {
     visibility: visible;
   }
 
-  .bg2 {
+  /* .bg2 {
     background-image: url(../images/mob_bg.png);
-  }
+  } */
 
   .write_msg {
     background: rgba(255, 255, 255, 0.135);
@@ -1166,5 +1388,59 @@ input:checked+.slider:before {
     align-items: center;
     flex-wrap: wrap;
     border-bottom: 1px solid rgb(68, 68, 68);
+  }
+}
+
+@media(max-width: 800px) {
+  .poly1 {
+    display: none !important;
+  }
+
+  .poly2 {
+    display: none !important;
+  }
+
+  .poly3 {
+    display: none !important;
+  }
+
+  .poly4 {
+    display: none !important;
+  }
+
+  .mob_poly1 {
+    display: block;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .mob_poly2 {
+    display: block;
+    z-index: -1;
+    position: absolute;
+    top: 50px;
+    right: 0;
+  }
+
+  .mob_poly3 {
+    display: block;
+    z-index: -1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  .mob_poly4 {
+    display: block;
+    z-index: -1;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  .outer_poly1, .outer_poly2, .outer_poly3, .outer_poly4 {
+    display: none;
   }
 }

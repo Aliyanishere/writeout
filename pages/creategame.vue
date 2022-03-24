@@ -153,7 +153,8 @@
                   cancel-variant="dark"
                 >
                   <input
-                    class="w-100 ps-4"
+                    class="ps-3 ms-3"
+                    style="width: 90%"
                     type="text"
                     placeholder="Enter Character Name"
                   />
@@ -175,19 +176,19 @@
               </div>
             </div>
 
-            <div class="mt-3 mt-lg-4">
+            <div class="mt-3 mt-lg-4 mb-0">
               <p class="mb-0 ms-2 ms-lg-0">Start Time</p>
               <div class="start_time">
-                <div class="date" v-b-modal.modal-sm.modal-center-2>
+                <div class="date mb-0" v-b-modal.modal-sm.modal-center-2>
                   <i class="fas fa-calendar-alt"></i>
                   <p class="mb-0 ms-2">Jan 12,2022</p>
                 </div>
-                <div class="date" v-b-modal.modal-sm.modal-center-2>
+                <div class="date mb-0" v-b-modal.modal-sm.modal-center-2>
                   <i class="fas fa-clock"></i>
                   <p class="mb-0 ms-2">05:00 PM</p>
                 </div>
               </div>
-              <b-modal id="modal-center-2" centered size="sm">
+              <b-modal class="w-100 text-center" id="modal-center-2" centered size="sm">
                 <b-row>
                   <p class="d-flex justify-content-center align-items-center">
                     Choose Date
@@ -197,7 +198,7 @@
                       v-model="value"
                       @context="onContext"
                       locale="en-US"
-                      class="text-white"
+                      class="text-white mx-0 px-0"
                     ></b-calendar>
                   </b-col>
                 </b-row>
@@ -214,7 +215,7 @@
               </b-modal>
             </div>
 
-            <div class="setup">
+            <div class="setup mt-0">
               <button class="login2">
                 Setup Game <i class="fas fa-arrow-right text-white"></i>
               </button>
@@ -227,6 +228,11 @@
       <img class="poly2" src="~/assets/images/polygon2.svg" alt="">
       <img class="poly3" src="~/assets/images/polygon3.svg" alt="">
       <img class="poly4" src="~/assets/images/polygon4.svg" alt="">
+
+      <img class="mob_poly1" src="~/assets/images/mob_Polygon1.svg" alt="" />
+      <img class="mob_poly2" src="~/assets/images/mob_polygon2.svg" alt="" />
+      <img class="mob_poly3" src="~/assets/images/mob_polygon3.svg" alt="" />
+      <img class="mob_poly4" src="~/assets/images/mob_polygon4.svg" alt="" />
     </div>
   </div>
 </template>

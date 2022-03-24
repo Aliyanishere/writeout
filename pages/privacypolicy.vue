@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="mob_nav mt-5">
+    <div class="mob_nav justify-content-center">
       <img width="100px" src="~/assets/images/logo.png" alt="" />
     </div>
 
@@ -164,10 +164,15 @@
         </p>
       </div>
 
-      <img class="poly1" src="~/assets/images/polygon1.svg" alt="">
-      <img class="poly2" src="~/assets/images/polygon2.svg" alt="">
-      <img class="poly3" src="~/assets/images/polygon3.svg" alt="">
-      <img class="poly4" src="~/assets/images/polygon4.svg" alt="">
+      <img class="outer_poly1" src="~/assets/images/outer_polygon1.svg" alt="" />
+      <img class="outer_poly2" src="~/assets/images/outer_polygon2.svg" alt="" />
+      <img class="outer_poly3" src="~/assets/images/outer_polygon3.svg" alt="" />
+      <img class="outer_poly4" src="~/assets/images/outer_polygon4.svg" alt="" />
+
+      <img class="mob_poly1" src="~/assets/images/mob_Polygon1.svg" alt="" />
+      <img class="mob_poly2" src="~/assets/images/mob_polygon2.svg" alt="" />
+      <img class="mob_poly3" src="~/assets/images/mob_polygon3.svg" alt="" />
+      <img class="mob_poly4" src="~/assets/images/mob_polygon4.svg" alt="" />
     </div>
   </div>
 </template>

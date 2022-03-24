@@ -113,10 +113,13 @@
 
           <div class="create_content2">
             <div class="switches">
-              <button class="chat_switch2">Chat</button>
+              <NuxtLink to="/chat">
+                <button class="chat_switch2">Chat</button>
+              </NuxtLink>
+              <NuxtLink to="/game">
               <button class="writers_switch2">Writers</button>
+              </NuxtLink>
             </div>
-
             <div class="game_will_start_in text-center w-100">
               <p class="text-muted mb-0">Game starting in</p>
               <p class="fs-2">00:12s</p>
@@ -169,7 +172,8 @@
                   placeholder="Write a message"
                   maxlength = "200"
                 ></b-form-input>
-                <i class="fas fa-paper-plane fs-4" style="color: #f05342; cursor: pointer"></i>
+                <span class="send_bg"></span>
+                <i class="messaging fas fa-paper-plane fs-5 me-1"></i>
               </div>
             </div>
           </div>
@@ -180,6 +184,11 @@
       <img class="poly2" src="~/assets/images/polygon2.svg" alt="">
       <img class="poly3" src="~/assets/images/polygon3.svg" alt="">
       <img class="poly4" src="~/assets/images/polygon4.svg" alt="">
+      
+      <img class="mob_poly1" src="~/assets/images/mob_Polygon1.svg" alt="" />
+      <img class="mob_poly2" src="~/assets/images/mob_polygon2.svg" alt="" />
+      <img class="mob_poly3" src="~/assets/images/mob_polygon3.svg" alt="" />
+      <img class="mob_poly4" src="~/assets/images/mob_polygon4.svg" alt="" />
     </div>
   </div>
 </template>

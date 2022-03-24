@@ -170,8 +170,8 @@
               </div>
 
               <div class="mt-4 mt-lg-5 mb-3 d-flex justify-content-center align-items-center flex-column">
-                <p class="mb-0">The writers are working.</p>
-                <p>Please wait while they finish.</p>
+                <p class="mb-0 text-muted">The writers are working.</p>
+                <p class="text-muted">Please wait while they finish.</p>
               </div>
             </div>
           </div>
@@ -182,6 +182,11 @@
       <img class="poly2" src="~/assets/images/polygon2.svg" alt="">
       <img class="poly3" src="~/assets/images/polygon3.svg" alt="">
       <img class="poly4" src="~/assets/images/polygon4.svg" alt="">
+
+      <img class="mob_poly1" src="~/assets/images/mob_Polygon1.svg" alt="" />
+      <img class="mob_poly2" src="~/assets/images/mob_polygon2.svg" alt="" />
+      <img class="mob_poly3" src="~/assets/images/mob_polygon3.svg" alt="" />
+      <img class="mob_poly4" src="~/assets/images/mob_polygon4.svg" alt="" />
     </div>
   </div>
 </template>

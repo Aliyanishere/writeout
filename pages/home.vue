@@ -62,7 +62,7 @@
     </b-navbar>
 
     <div class="bg2">
-      <div class="container" style="margin-top: 150px">
+      <div class="container py-lg-5 home">
         <div class="mb-2 mb-lg-5 create_game2 mt-2 mt-lg-5 mt-lg-0">
           <i class="fas fa-arrow-left fs-4 me-3" style="color: #f05342"></i>
           <p class="mb-1 fs-5">Home</p>
@@ -317,6 +317,11 @@
       <img class="poly2" src="~/assets/images/polygon2.svg" alt="">
       <img class="poly3" src="~/assets/images/polygon3.svg" alt="">
       <img class="poly4" src="~/assets/images/polygon4.svg" alt="">
+
+      <img class="mob_poly1" src="~/assets/images/mob_Polygon1.svg" alt="" />
+      <img class="mob_poly2" src="~/assets/images/mob_polygon2.svg" alt="" />
+      <img class="mob_poly3" src="~/assets/images/mob_polygon3.svg" alt="" />
+      <img class="mob_poly4" src="~/assets/images/mob_polygon4.svg" alt="" />
     </div>
   </div>
 </template>

@@ -181,7 +181,7 @@
             </div>
 
             <div
-              class="mt-3 d-flex justify-content-center align-items-center flex-column"
+              class="grant_verify mt-3 d-flex justify-content-center align-items-center flex-column"
             >
               <img src="~assets/images/reward.png" alt="" />
               <p class="mb-0">Grant Verified</p>
@@ -194,6 +194,21 @@
               </button>
             </div>
           </div>
+
+          <div class="block_btn">
+            <button  v-b-modal.modal-sm.modal-center>Block</button>
+
+            <b-modal
+              id="modal-center"
+              size="sm"
+              title=""
+              centered
+              ok-title="Block"
+              cancel-variant="dark"
+            >
+              <h6 class="text-white w-100 text-center">Confirm Blocking ?</h6>
+            </b-modal>
+          </div>
         </div>
       </div>
 
@@ -201,6 +216,11 @@
       <img class="poly2" src="~/assets/images/polygon2.svg" alt="">
       <img class="poly3" src="~/assets/images/polygon3.svg" alt="">
       <img class="poly4" src="~/assets/images/polygon4.svg" alt="">
+
+      <img class="mob_poly1" src="~/assets/images/mob_Polygon1.svg" alt="" />
+      <img class="mob_poly2" src="~/assets/images/mob_polygon2.svg" alt="" />
+      <img class="mob_poly3" src="~/assets/images/mob_polygon3.svg" alt="" />
+      <img class="mob_poly4" src="~/assets/images/mob_polygon4.svg" alt="" />
     </div>
   </div>
 </template>

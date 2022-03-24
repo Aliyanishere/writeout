@@ -20,14 +20,27 @@
 
       <b-collapse id="nav-collapse" class="mx-auto" is-nav>
         <b-navbar-nav class="mx-auto mb-2 mb-lg-0">
-          <b-nav-item href="https://writeout.netlify.app/" class="mx-2"
-            >Home</b-nav-item
+          <b-nav-item class="mx-2"> 
+            <NuxtLink to="/home" class="text-white">
+              Home
+            </NuxtLink>
+            </b-nav-item
           >
-          <b-nav-item href="https://writeout.netlify.app/aboutus" class="mx-2"
-            >Reports</b-nav-item
+          
+          <b-nav-item class="mx-2"
+            >
+            <NuxtLink to="/aboutus" class="text-white">
+            Reports
+            </NuxtLink>
+            </b-nav-item
           >
-          <b-nav-item href="https://writeout.netlify.app/terms" class="mx-2"
-            >Metrics</b-nav-item
+          
+          
+          <b-nav-item class="mx-2"
+            >
+            <NuxtLink to="/choose_line" class="text-white">
+            Metrics
+            </NuxtLink></b-nav-item
           >
         </b-navbar-nav>
       </b-collapse>
@@ -264,6 +277,11 @@
       <img class="poly2" src="~/assets/images/polygon2.svg" alt="">
       <img class="poly3" src="~/assets/images/polygon3.svg" alt="">
       <img class="poly4" src="~/assets/images/polygon4.svg" alt="">
+
+      <img class="mob_poly1" src="~/assets/images/mob_Polygon1.svg" alt="" />
+      <img class="mob_poly2" src="~/assets/images/mob_polygon2.svg" alt="" />
+      <img class="mob_poly3" src="~/assets/images/mob_polygon3.svg" alt="" />
+      <img class="mob_poly4" src="~/assets/images/mob_polygon4.svg" alt="" />
     </div>
   </div>
 </template>

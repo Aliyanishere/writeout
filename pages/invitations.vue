@@ -197,7 +197,7 @@
                   <i class="fas fa-times text-white ms-4 ms-lg-4"></i>
                 </div>
 
-                <button class="ms-1 ms-lg-3 mt-5 mt-lg-5 mb-3 start_game">
+                <button class="ms-1 ms-lg-3 mt-5 mt-lg-3 mb-3 start_game">
                   Start Game <i class="fas fa-arrow-right text-white"></i>
                 </button>
               </div>
@@ -210,6 +210,11 @@
       <img class="poly2" src="~/assets/images/polygon2.svg" alt="">
       <img class="poly3" src="~/assets/images/polygon3.svg" alt="">
       <img class="poly4" src="~/assets/images/polygon4.svg" alt="">
+
+      <img class="mob_poly1" src="~/assets/images/mob_Polygon1.svg" alt="" />
+      <img class="mob_poly2" src="~/assets/images/mob_polygon2.svg" alt="" />
+      <img class="mob_poly3" src="~/assets/images/mob_polygon3.svg" alt="" />
+      <img class="mob_poly4" src="~/assets/images/mob_polygon4.svg" alt="" />
     </div>
   </div>
 </template>
