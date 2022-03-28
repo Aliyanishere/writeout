@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/invitations", {data:[{}],fetch:{},mutations:void 0});

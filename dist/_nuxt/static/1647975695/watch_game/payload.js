@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/watch_game", {data:[{}],fetch:{},mutations:void 0});

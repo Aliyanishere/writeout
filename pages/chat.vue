@@ -34,12 +34,8 @@
           >
             <img src="~/assets/images/user_icon.svg" alt="" />
             <div class="d-flex justify-content-center align-items-center">
-              <img
-                class="mt-2 me-1"
-                src="~/assets/images/coin.svg"
-                alt=""
-              />
-              <p class="mb-0 mt-2" style="color: #E7A52E">2500</p>
+              <img class="mt-2 me-1" src="~/assets/images/coin.svg" alt="" />
+              <p class="mb-0 mt-2" style="color: #e7a52e">2500</p>
             </div>
           </div>
         </b-navbar-nav>
@@ -56,58 +52,58 @@
         <div class="main_create">
           <div class="sidebar mb-5">
             <NuxtLink to="/home">
-            <div class="tabs">
-              <i class="fas fa-home text-white fs-5 me-3"></i>
-              <p class="mb-0 fs-6">Home</p>
-            </div>
+              <div class="tabs">
+                <i class="fas fa-home text-white fs-5 me-3"></i>
+                <p class="mb-0 fs-6">Home</p>
+              </div>
             </NuxtLink>
             <NuxtLink to="/friends">
-            <div class="tabs">
-              <i class="fas fa-user-friends text-white fs-5 me-3"></i>
-              <p class="mb-0 fs-6">Friends</p>
-            </div>
+              <div class="tabs">
+                <i class="fas fa-user-friends text-white fs-5 me-3"></i>
+                <p class="mb-0 fs-6">Friends</p>
+              </div>
             </NuxtLink>
             <NuxtLink to="/game">
-            <div class="tabs">
-              <i class="fas fa-gamepad text-white fs-5 me-3"></i>
-              <p class="mb-0 fs-6">Your Games</p>
-            </div>
+              <div class="tabs">
+                <i class="fas fa-gamepad text-white fs-5 me-3"></i>
+                <p class="mb-0 fs-6">Your Games</p>
+              </div>
             </NuxtLink>
             <NuxtLink to="/writeout_shop">
-            <div class="tabs">
-              <i class="fas fa-store text-white fs-5 me-3"></i>
-              <p class="mb-0 fs-6">Writeout Shop</p>
-            </div>
+              <div class="tabs">
+                <i class="fas fa-store text-white fs-5 me-3"></i>
+                <p class="mb-0 fs-6">Writeout Shop</p>
+              </div>
             </NuxtLink>
             <NuxtLink to="/storyline">
-            <div class="tabs">
-              <i class="fab fa-discord text-white fs-5 me-3"></i>
-              <p class="mb-0 fs-6">Join the Discord</p>
-            </div>
+              <div class="tabs">
+                <i class="fab fa-discord text-white fs-5 me-3"></i>
+                <p class="mb-0 fs-6">Join the Discord</p>
+              </div>
             </NuxtLink>
             <NuxtLink to="/terms">
-            <div class="tabs">
-              <i class="fas fa-info-circle text-white fs-5 me-3"></i>
-              <p class="mb-0 fs-6">Terms of Service</p>
-            </div>
+              <div class="tabs">
+                <i class="fas fa-info-circle text-white fs-5 me-3"></i>
+                <p class="mb-0 fs-6">Terms of Service</p>
+              </div>
             </NuxtLink>
             <NuxtLink to="/privacypolicy">
-            <div class="tabs">
-              <i class="fas fa-info-circle text-white fs-5 me-3"></i>
-              <p class="mb-0 fs-6">Privacy Policy</p>
-            </div>
+              <div class="tabs">
+                <i class="fas fa-info-circle text-white fs-5 me-3"></i>
+                <p class="mb-0 fs-6">Privacy Policy</p>
+              </div>
             </NuxtLink>
             <NuxtLink to="/profile">
-            <div class="tabs">
-              <i class="fas fa-cog text-white fs-5 me-3"></i>
-              <p class="mb-0 fs-6">Settings</p>
-            </div>
+              <div class="tabs">
+                <i class="fas fa-cog text-white fs-5 me-3"></i>
+                <p class="mb-0 fs-6">Settings</p>
+              </div>
             </NuxtLink>
             <NuxtLink to="/">
-            <div class="tabs">
-              <i class="fas fa-sign-out-alt text-white fs-5 me-3"></i>
-              <p class="mb-0 fs-6">Logout</p>
-            </div>
+              <div class="tabs">
+                <i class="fas fa-sign-out-alt text-white fs-5 me-3"></i>
+                <p class="mb-0 fs-6">Logout</p>
+              </div>
             </NuxtLink>
           </div>
 
@@ -117,7 +113,7 @@
                 <button class="chat_switch2">Chat</button>
               </NuxtLink>
               <NuxtLink to="/game">
-              <button class="writers_switch2">Writers</button>
+                <button class="writers_switch2">Writers</button>
               </NuxtLink>
             </div>
             <div class="game_will_start_in text-center w-100">
@@ -125,41 +121,153 @@
               <p class="fs-2">00:12s</p>
             </div>
 
-            <div
-              class="w-100"
-            >
+            <div class="w-100">
               <div class="messages mt-4 w-100">
                 <div class="msg_input my-2" style="justify-content: flex-end">
-                  <p class="msg mb-0 me-2">Y'all are in for a fun game. <i class="ms-2 fas fa-times text-muted" style="cursor: pointer"></i></p>
-                  <img v-b-tooltip.hover title="Tyler" src="~/assets/images/chat_user1.png" alt="" />
+                  <p class="msg mb-0 me-2">
+                    Y'all are in for a fun game.
+                    <i
+                      class="ms-2 fas fa-times text-muted"
+                      style="cursor: pointer"
+                    ></i>
+                  </p>
+                  <img
+                    v-b-tooltip.hover
+                    title="Tyler"
+                    src="~/assets/images/chat_user1.png"
+                    alt=""
+                  />
                 </div>
                 <div class="msg_input my-2" style="justify-content: flex-start">
-                  <img v-b-tooltip.hover title="John Doe" src="~/assets/images/chat_user2.png" alt="" />
-                  <p class="msg2 mb-0 ms-2"><i class="me-2 fas fa-times text-muted" style="cursor: pointer"></i> So we get to vote??</p>
+                  <img
+                    v-b-tooltip.hover
+                    title="John Doe"
+                    src="~/assets/images/chat_user2.png"
+                    alt=""
+                  />
+                  <p class="msg2 mb-0 ms-2">
+                    <i
+                      class="me-2 fas fa-times text-muted"
+                      style="cursor: pointer"
+                    ></i>
+                    So we get to vote??
+                  </p>
                 </div>
                 <div class="msg_input my-2" style="justify-content: flex-start">
-                  <img v-b-tooltip.hover title="George K." src="~/assets/images/chat_user3.png" alt="" />
-                  <p class="msg2 mb-0 ms-2"><i class="me-2 fas fa-times text-muted" style="cursor: pointer"></i> ❤️ you all</p>
+                  <img
+                    v-b-tooltip.hover
+                    title="George K."
+                    src="~/assets/images/chat_user3.png"
+                    alt=""
+                  />
+                  <p class="msg2 mb-0 ms-2">
+                    <i
+                      class="me-2 fas fa-times text-muted"
+                      style="cursor: pointer"
+                    ></i>
+                    ❤️ you all
+                  </p>
                 </div>
                 <div class="msg_input my-2" style="justify-content: flex-start">
-                  <img v-b-tooltip.hover title="William Broke" src="~/assets/images/chat_user4.png" alt="" />
-                  <p class="msg2 mb-0 ms-2"><i class="me-2 fas fa-times text-muted" style="cursor: pointer"></i> this is a live game</p>
+                  <img
+                    v-b-tooltip.hover
+                    title="William Broke"
+                    src="~/assets/images/chat_user4.png"
+                    alt=""
+                  />
+                  <p class="msg2 mb-0 ms-2">
+                    <i
+                      class="me-2 fas fa-times text-muted"
+                      style="cursor: pointer"
+                    ></i>
+                    this is a live game
+                  </p>
                 </div>
                 <div class="msg_input my-2" style="justify-content: flex-end">
-                  <p class="msg mb-0 me-2">yup <i class="ms-2 fas fa-times text-muted" style="cursor: pointer"></i></p>
-                  <img v-b-tooltip.hover title="Tyler" src="~/assets/images/chat_user1.png" alt="" />
+                  <p class="msg mb-0 me-2">
+                    yup
+                    <i
+                      class="ms-2 fas fa-times text-muted"
+                      style="cursor: pointer"
+                    ></i>
+                  </p>
+                  <img
+                    v-b-tooltip.hover
+                    title="Tyler"
+                    src="~/assets/images/chat_user1.png"
+                    alt=""
+                  />
                 </div>
                 <div class="msg_input my-2" style="justify-content: flex-end">
-                  <p class="msg mb-0 me-2">gonna start this soon <i class="ms-2 fas fa-times text-muted" style="cursor: pointer"></i></p>
-                  <img v-b-tooltip.hover title="Tyler" src="~/assets/images/chat_user1.png" alt="" />
+                  <p class="msg mb-0 me-2">
+                    gonna start this soon
+                    <i
+                      class="ms-2 fas fa-times text-muted"
+                      style="cursor: pointer"
+                    ></i>
+                  </p>
+                  <img
+                    v-b-tooltip.hover
+                    title="Tyler"
+                    src="~/assets/images/chat_user1.png"
+                    alt=""
+                  />
                 </div>
                 <div class="msg_input my-2" style="justify-content: flex-start">
-                  <img v-b-tooltip.hover title="Jacob Mitchell" src="~/assets/images/chat_user5.png" alt="" />
-                  <p class="msg2 mb-0 ms-2"><i class="me-2 fas fa-times text-muted" style="cursor: pointer"></i> Can’t wait</p>
+                  <img
+                    v-b-tooltip.hover
+                    title="Jacob Mitchell"
+                    src="~/assets/images/chat_user5.png"
+                    alt=""
+                  />
+                  <p class="msg2 mb-0 ms-2">
+                    <i
+                      class="me-2 fas fa-times text-muted"
+                      style="cursor: pointer"
+                    ></i>
+                    Can’t wait
+                  </p>
                 </div>
                 <div class="msg_input my-2" style="justify-content: flex-start">
-                  <img v-b-tooltip.hover title="Emma Parker" src="~/assets/images/chat_user6.png" alt="" />
-                  <p class="msg2 mb-0 ms-2"><i class="me-2 fas fa-times text-muted" style="cursor: pointer"></i> My boyfriend is playing</p>
+                  <img
+                    v-b-tooltip.hover
+                    title="Emma Parker"
+                    src="~/assets/images/chat_user6.png"
+                    alt=""
+                  />
+                  <p class="msg2 mb-0 ms-2">
+                    <i
+                      class="me-2 fas fa-times text-muted"
+                      style="cursor: pointer"
+                    ></i>
+                    My boyfriend is playing
+                  </p>
+                </div>
+                <div
+                  class="msg_input my-2"
+                  v-for="post of posts"
+                  :key="post"
+                  style="justify-content: flex-end"
+                >
+                  <p class="msg mb-0 me-2">
+                    {{ post.msg }}
+                    <i
+                      @click="del(post.id)"
+                      class="ms-2 fas fa-times text-muted"
+                      style="cursor: pointer"
+                    >
+                    <!-- <span class="d-none " id="del_input">
+                    {{post.id}}
+                    </span> -->
+                      </i
+                    >
+                  </p>
+                  <img
+                    v-b-tooltip.hover
+                    title="Tyler"
+                    src="~/assets/images/chat_user1.png"
+                    alt=""
+                  />
                 </div>
               </div>
 
@@ -168,23 +276,27 @@
                 <b-form-input
                   class="w-100 w-lg-50 text-white mx-3"
                   v-model="amount"
+                  id="input"
                   oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
                   placeholder="Write a message"
-                  maxlength = "200"
+                  maxlength="200"
                 ></b-form-input>
-                <span class="send_bg"></span>
-                <i class="messaging fas fa-paper-plane fs-5 me-1"></i>
+                <span class="send_bg" @click="show"></span>
+                <i
+                  class="messaging fas fa-paper-plane fs-5 me-1"
+                  @click="show"
+                ></i>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <img class="poly1" src="~/assets/images/polygon1.svg" alt="">
-      <img class="poly2" src="~/assets/images/polygon2.svg" alt="">
-      <img class="poly3" src="~/assets/images/polygon3.svg" alt="">
-      <img class="poly4" src="~/assets/images/polygon4.svg" alt="">
-      
+      <img class="poly1" src="~/assets/images/polygon1.svg" alt="" />
+      <img class="poly2" src="~/assets/images/polygon2.svg" alt="" />
+      <img class="poly3" src="~/assets/images/polygon3.svg" alt="" />
+      <img class="poly4" src="~/assets/images/polygon4.svg" alt="" />
+
       <img class="mob_poly1" src="~/assets/images/mob_Polygon1.svg" alt="" />
       <img class="mob_poly2" src="~/assets/images/mob_polygon2.svg" alt="" />
       <img class="mob_poly3" src="~/assets/images/mob_polygon3.svg" alt="" />
@@ -192,3 +304,31 @@
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  data: () => ({
+    posts: [],
+  }),
+  methods: {
+    async show() {
+      // alert("hello");
+
+      let text = document.getElementById("input").value;
+      // alert(text);
+      if (text === "") {
+        alert("khali hai");
+      } else {
+        let obj = { msg: text, id: Math.floor(Math.random() * 100) };
+        this.posts.push(obj);
+        document.getElementById("input").value = "";
+        console.log(this.posts);
+      }
+    },
+    del(e){
+      this.posts.id.remove(e);
+      // alert(e);
+    },
+  },
+};
+</script>

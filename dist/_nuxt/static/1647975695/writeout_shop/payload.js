@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/writeout_shop", {data:[{}],fetch:{},mutations:void 0});

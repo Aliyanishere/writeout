@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/next_line", {data:[{}],fetch:{},mutations:void 0});

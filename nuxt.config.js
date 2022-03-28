@@ -20,6 +20,11 @@ export default {
     ],
     css : [
       '@/assets/css/style.css'
+    ],
+    script: [
+      {
+        src: '@/assets/js/chat.js'
+      }
     ]
   },
 

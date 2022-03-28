@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/story_submitted", {data:[{}],fetch:{},mutations:void 0});
