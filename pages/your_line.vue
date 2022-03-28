@@ -127,7 +127,8 @@
             </NuxtLink>
           </div>
 
-          <div class="create_content">
+          <div class="create_content"
+          style="display: flex; justify-content: center; align-items: center">
             <div class="switches">
               <NuxtLink to="/your_line">
                 <button class="chat_switch2">Game</button>
@@ -145,7 +146,7 @@
             </div>
 
             <div class="mt-4">
-              <div class="invitation_tabs mb-5 mb-lg-0">
+              <div class="invitation_tabs mb-5 mb-lg-0  justify-content-center align-items-center">
                 <div class="lines_tab py-2 py-lg-3" style="height: max-content">
                   <div class="d-flex justify-content-start align-items-start">
                     <div

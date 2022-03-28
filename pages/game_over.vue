@@ -117,7 +117,7 @@
           </div>
 
           <div
-            class="create_content2"
+            class="create_content"
             style="display: flex; justify-content: center; align-items: center"
           >
             <div class="game_will_start_in mt-0">

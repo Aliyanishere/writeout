@@ -317,17 +317,24 @@ export default {
       let text = document.getElementById("input").value;
       // alert(text);
       if (text === "") {
-        alert("khali hai");
+        alert("empty");
       } else {
         let obj = { msg: text, id: Math.floor(Math.random() * 100) };
         this.posts.push(obj);
         document.getElementById("input").value = "";
-        console.log(this.posts);
+        // console.log(this.posts);
       }
     },
     del(e){
-      this.posts.id.remove(e);
-      // alert(e);
+      // this.posts[0].remove();
+      for (let i = 0; i < this.posts.length; i++) {
+        const element = this.posts[i];
+        if(element.id ===  e){
+          this.posts.splice(i,1);
+          // console.log(element);
+        }
+        
+      }
     },
   },
 };
